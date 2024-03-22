@@ -1,0 +1,10 @@
+//bluloco tema branco bolado
+
+Composer -> Gerenciar de pacotes(ou pendencias)
+melhor que chat gpt pois recebe atualizações
+Composer(instala) procura no Packagist(repositorio)
+
+composer --version
+
+Twig -> ferreamenta de gerenciamento de template
+ele ajuda oq é codigo php e html
