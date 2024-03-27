@@ -8,3 +8,12 @@ composer --version
 
 Twig -> ferreamenta de gerenciamento de template
 ele ajuda oq é codigo php e html
+
+
+
+PDO:
+
+TEM VARIAVEIS?
+SE NÃO -> QUERY
+SE SIM -> PREPARE, BIND
+NUNCA CONFIE NO USUARIO
