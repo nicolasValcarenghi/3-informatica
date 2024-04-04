@@ -10,10 +10,20 @@ Twig -> ferreamenta de gerenciamento de template
 ele ajuda oq é codigo php e html
 
 
-
 PDO:
 
 TEM VARIAVEIS?
 SE NÃO -> QUERY
 SE SIM -> PREPARE, BIND
 NUNCA CONFIE NO USUARIO
+
+
+COMPOSER UPDATE REINSTALA O VENDOR
+
+
+'CARBON' É BIBIOTECA PHP PARA TRABALHAR COM DATAS
+
+
+COMPOSER REQUIRE NOME DA PASTA
+
+use = \

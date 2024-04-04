@@ -26,9 +26,13 @@ Mas você pode tacar esse script la pro package.json
  para iniciar mais fácil,vocÊ cria o start com o node e o nome do script
  npm run start vai aparecer o oiii,run start é parametro para facilitar
 
- instala o pacote npm install nodemon -D,vai te ajudar a quando atualizar,ele ja lançar no temrinal
+ instala o pacote npm install nodemon -D, vai te ajudar a quando atualizar,ele ja lançar no temrinal
 
  Há duas maquinas,o aspecto que diferencia uma de produção e outra de desenvolvimento:
  seria uma etiqueta falando qual é qual,o que representa uma variavel,determianndo qual é qual.
 
  Variavel de ambiente é aquela q o windows consegue ler pra saber oq é Node
+
+npm init -y
+ npm install nodemon -D
+ npm install express

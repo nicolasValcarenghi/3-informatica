@@ -1,0 +1,1 @@
+INSERT INTO pessoas (nome) VALUES ("Thyago Salva");

@@ -12,10 +12,10 @@
 <hr>
 
 <p>Esta é sua lista de compras:</p>
-<ul>    
+<ul>     
  {% for compra in compras %}
     <li> {{compra['item']}} 
-    <a href="formUpdate.html">| Mudar </a>
+    <a href="updateForm.php?id={{compra['id']}}&item={{compra['item']}}">| Mudar </a>
     <a href="compras_del.php?id={{compra['id']}}">| Excluir </a>
     </li>
     {% endfor %}
