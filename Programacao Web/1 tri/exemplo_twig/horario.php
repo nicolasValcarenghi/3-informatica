@@ -11,11 +11,13 @@ $data = Carbon::now('America/Sao_Paulo')
 
 //->addDay() Soma um dia
 
-echo $data;
-die;
+$amanha = Carbon::now('America/Sao_Paulo')
+->addDay()
+->locale('pt_BR')
+->isoFormat('LLLL');
 
 echo $twig->render(
-    'horario.html'
+    'horario.html',
     [
         'hoje' =>$data,
         'amanha' =>$amanha

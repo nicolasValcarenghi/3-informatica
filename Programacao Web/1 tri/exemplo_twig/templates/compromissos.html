@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block titulo %}Compromissos{% endblock %}
+
+{% block conteudo %}
+
+    <h3>Adicionar compromisos</h3>
+    <form action="compromissos_adc.php" method="post">
+    <input type="text" name="descricao"><br>
+    <input type="date" name="data"><br>
+    <input type="submit" value="adicionar">
+    </form>
+    <hr>
+
+<p>Esta é sua lista de compromissos:</p>
+
+<tr>     
+ {% for compromisso in compromissos %}
+    <td>{{compromisso['descricao']}}</td>
+    <td>{{compromisso['data']}}</td>
+    </tr>  
+    {% endfor %} 
+{% endblock %}
