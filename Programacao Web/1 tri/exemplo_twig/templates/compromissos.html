@@ -4,6 +4,7 @@
 
 {% block conteudo %}
 
+
     <h3>Adicionar compromisos</h3>
     <form action="compromissos_adc.php" method="post">
     <input type="text" name="descricao"><br>
@@ -14,10 +15,18 @@
 
 <p>Esta é sua lista de compromissos:</p>
 
-<tr>     
- {% for compromisso in compromissos %}
-    <td>{{compromisso['descricao']}}</td>
-    <td>{{compromisso['data']}}</td>
+<table> 
+    <thead>
+      <th>Descrição</th>
+      <th>Data</th>
+      <th>Fim de Semana</th>
+  </thead>   
+    {% for compromisso in compromissos %}
+    <tr>
+        <td>{{compromisso['descricao']}}</td>
+        <td>{{compromisso['data']}}</td>
+        <td>{{compromisso['fimDeSemana']}}</td>
     </tr>  
     {% endfor %} 
+</table>
 {% endblock %}
