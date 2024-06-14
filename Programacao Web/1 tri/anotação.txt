@@ -27,3 +27,19 @@ COMPOSER UPDATE REINSTALA O VENDOR
 COMPOSER REQUIRE NOME DA PASTA
 
 use = \
+
+diferençado fetch alll e p fetch
+fetch pega 1 linha só
+e o fetchAll pega todas linhas
+
+$arr['idade'] = 20 -> cria novo indice dentro do array
+
+
+06/06
+
+inicia
+
+composer create-project laravel/laravel batata
+php artisan serve
+
+laravel tem seu prorio servidor n precisa do xampp
